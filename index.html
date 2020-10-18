@@ -14,6 +14,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -29,6 +30,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body
     style="background-image: url('images/background.jpg');  background-color: #eee;
@@ -38,40 +40,96 @@
       <div class="alert alert-light">
         <div class="h3">Hello World!</div>
       </div>
-      <!--
-      <div style="display:flex">
-        <div style="flex-direction: column">
-          <img
-            class="rounded-circle shadow p-1 mb-1 rounded"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQEkDRTe7s3FXQ/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=xbBq-AiSv-0OWgWvo2swXBNLxRB7QeqHgLkjAF065zI"
-          />
-          <span>Adriano Marabuco</span>
-          <small>"Talk is Cheap, Show me code!"</small>
-        </div>
-      </div>
-      -->
-      <div class="card mb-31" style="max-width: 540px;">
+      <div class="card mb-1" style="max-width: 100%; " >
+        <div class="row">
+        <div class="col-md-6">
         <div class="row no-gutters">
           <div class="col-md-4">
-            <img
-              src="https://media-exp1.licdn.com/dms/image/C5603AQEkDRTe7s3FXQ/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=xbBq-AiSv-0OWgWvo2swXBNLxRB7QeqHgLkjAF065zI"
-              class="card-img"
-              alt="..."
-            />
+            <img src="images/adriano.jpg" class="card-img img-thumbnail" alt="..." />
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">Adriano Marabuco</h5>
               <p class="card-text">
                 Mestrando em Computação, apaixonado por tecnologia, curioso e
-                empreendedor. Sempre em busca de aprender e crescer.
-              </p>
-              <p class="card-text">
-                <small class="text-muted"
-                  >"Talk is cheap, show me the code!"</small
-                >
+                empreendedor. Sempre em busca de aprender e crescer. Entre
+                planejamento e execução, fica com o segundo. Prefere quebrar
+                cabeça com bugs do que contar mentiras em slides.
               </p>
             </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-6">
+                <ul class="list-group" style="margin-top:20px">
+                    <li class="list-group-item"><i class="fa fa-inbox" aria-hidden="true"></i>  <a href="mailto:amal@cin.ufpe.br">amal@cin.ufpe.br</a></li>
+                        <li class="list-group-item"><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="https://amarabuco.github.io/governoopensource/">Linkedin</a></li>
+                        <li class="list-group-item"><i class="fa fa-bar-chart" aria-hidden="true"></i> <a href="https://www.kaggle.com/amarabuco/">Kaggle</a></li>
+                    </ul>
+            </div>
+      </div>
+    </div>
+      <div style="height:32px">       </div>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/projetos.jpg" class="card-img-top" height="400" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Projetos</h5>
+            <p class="card-text">
+                    <ul class="list-group">
+                            <li class="list-group-item"><a href="https://amarabuco.github.io/governoopensource/">Governo Open Source</a></li>
+                            <li class="list-group-item"><a href="https://github.com/amarabuco/celia">Celia</a></li>
+                            <li class="list-group-item">Projeto 3</li>
+                        </ul>
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><span wfd-id="13040">Photo by <a href="https://unsplash.com/@cdr6934?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Chris Ried</a> on <a href="https://unsplash.com/s/photos/python-code?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/articles.jpg" class="card-img-top" height="400" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Artigos</h5>
+            <p class="card-text">
+                <ul class="list-group">
+                    <li class="list-group-item">Artigo 1</li>
+                    <li class="list-group-item">Artigo 2</li>
+                    <li class="list-group-item">Artigo 3</li>
+                </ul>
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                ><span wfd-id="12211"
+                  >Photo by
+                  <a
+                    href="https://unsplash.com/@franki?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                    >Franki Chamaki</a
+                  >
+                  on
+                  <a
+                    href="https://unsplash.com/s/photos/data-has-a-better-ideia?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText"
+                    >Unsplash</a
+                  ></span
+                ></small
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/eventos.jpg" class="card-img-top" height="400" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Eventos</h5>
+            <p class="card-text">
+                    <ul class="list-group">
+                            <li class="list-group-item">Artigo 1</li>
+                            <li class="list-group-item">Artigo 2</li>
+                            <li class="list-group-item">Artigo 3</li>
+                        </ul>
+            </p>
+            <p class="card-text">
+              <small class="text-muted"><span wfd-id="9491">Photo by <a href="https://unsplash.com/@manasvita?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Manasvita S</a> on <a href="https://unsplash.com/s/photos/calendar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></small>
+            </p>
           </div>
         </div>
       </div>
